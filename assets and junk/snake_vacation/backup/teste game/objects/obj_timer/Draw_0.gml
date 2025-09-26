@@ -1,0 +1,1 @@
+draw_timer_curse()

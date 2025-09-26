@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_pos_maca",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_pos_maca",
+  "parent":{
+    "name":"scr_elements",
+    "path":"folders/Scripts/scr_elements.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

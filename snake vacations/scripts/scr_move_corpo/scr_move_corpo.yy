@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_move_corpo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_move_corpo",
+  "parent":{
+    "name":"scr_corpo",
+    "path":"folders/Scripts/scr_corpo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

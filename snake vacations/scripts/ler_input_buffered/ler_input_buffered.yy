@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ler_input_buffered",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ler_input_buffered",
+  "parent":{
+    "name":"scr_cabeca",
+    "path":"folders/Scripts/scr_cabeca.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

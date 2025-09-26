@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_move",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_move",
+  "parent":{
+    "name":"scr_cabeca",
+    "path":"folders/Scripts/scr_cabeca.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

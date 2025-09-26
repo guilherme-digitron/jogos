@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_curse_select",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_curse_select",
+  "parent":{
+    "name":"verificadores",
+    "path":"folders/Scripts/verificadores.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

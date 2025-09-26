@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_curse_select",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_curse_select",
+  "parent":{
+    "name":"internos",
+    "path":"folders/Scripts/internos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

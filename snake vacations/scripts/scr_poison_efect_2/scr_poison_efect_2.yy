@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_poison_efect_2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_poison_efect_2",
+  "parent":{
+    "name":"scr_poison_2",
+    "path":"folders/Scripts/scr_curses/scr_poison_2.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

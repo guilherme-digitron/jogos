@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_heath",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_heath",
+  "parent":{
+    "name":"scr_heath_curse",
+    "path":"folders/Scripts/scr_curses/scr_heath_curse.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

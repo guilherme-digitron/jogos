@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_geral_cauda",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_geral_cauda",
+  "parent":{
+    "name":"scr_corpo",
+    "path":"folders/Scripts/scr_corpo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

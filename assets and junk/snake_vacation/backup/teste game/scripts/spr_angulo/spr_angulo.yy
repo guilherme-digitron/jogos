@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spr_angulo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spr_angulo",
+  "parent":{
+    "name":"scr_cabeca",
+    "path":"folders/Scripts/scr_cabeca.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

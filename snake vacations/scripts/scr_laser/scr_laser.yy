@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_laser",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_laser",
+  "parent":{
+    "name":"scr_laser",
+    "path":"folders/Scripts/scr_curses/scr_laser.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

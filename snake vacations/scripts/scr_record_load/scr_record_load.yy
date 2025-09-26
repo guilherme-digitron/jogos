@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_record_load",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_record_load",
+  "parent":{
+    "name":"internos",
+    "path":"folders/Scripts/internos.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
