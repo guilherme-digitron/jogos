@@ -15,7 +15,7 @@ Bem-vindo ao meu laboratório de desenvolvimento de jogos. Aqui você encontrar�
 * **Status:** ✅ Concluído / BETA
 * **Plataforma:** Mobile
 * ➡️ **[Jogue Aqui!](https://gx.games/games/uqmupi/snake-vacation/tracks/829dc0e1-530e-4566-861b-1d8c33e4aec0/)**
-* 📂 **[Ver Código Fonte](link-para-a-pasta-do-projeto-no-repo)**
+* 📂 **[Ver Código Fonte](https://github.com/guilherme-digitron/jogos/tree/main/snake%20vacations)**
 
 ---
 
@@ -33,6 +33,3 @@ Bem-vindo ao meu laboratório de desenvolvimento de jogos. Aqui você encontrar�
 
 * **LinkedIn:** [Guilherme da Silva Cordeiro](https://www.linkedin.com/in/guilherme-da-silva-cordeiro-0670b930a)
 * **Opera GX:** [SheldonIV](https://gx.me/pt-br/SheldonIV/?tab=achievements)
-
-* **LinkedIn:** [Seu Nome](link-do-seu-linkedin)
-* **Itch.io:** [Seu Username](link-do-seu-itch.io)
