@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_contagem",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_contagem",
+  "parent":{
+    "name":"scr_timer_curse",
+    "path":"folders/Scripts/scr_curses/scr_timer_curse.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

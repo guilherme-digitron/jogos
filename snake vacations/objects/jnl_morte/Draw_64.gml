@@ -94,7 +94,8 @@ function desenhar_botao(_x, _y, _texto, _room_destino) {
 
         // Toca o som de hover apenas uma vez ao entrar na área do botão
         if (!variable_global_exists("hover_sound_played") || global.hover_sound_played != _texto) {
-            audio_play_sound(Menu_Select, 1, false); // <- SUBSTITUA 'snd_hover' pelo nome do seu som
+            var som = audio_play_sound(Menu_Select, 1, false);
+			audio_sound_gain(som, global.volume/global.sfx_volume, 0)
             global.hover_sound_played = _texto;
         }
 
@@ -121,5 +122,5 @@ var mouse_sobre_menu = desenhar_botao(cx, y_botao_menu, texto_botao_menu, ROOM_I
 
 // Se o mouse não estiver sobre nenhum dos botões, reseta a variável de controle do som
 if (!mouse_sobre_tentar && !mouse_sobre_menu) {
-    global.hover_sound_played = noone; // ou ""
+    global.hover_sound_played = noone; 
 }

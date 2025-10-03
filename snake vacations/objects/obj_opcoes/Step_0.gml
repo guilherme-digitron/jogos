@@ -175,7 +175,7 @@ if (mouse_check_button_pressed(mb_left)) {
         // Aplica mudança de volume em tempo real
         if (_opt.global_var == "master_volume") audio_master_gain(global.master_volume / 100);
         
-        audio_play_sound(Menu_Select, 1, false, global.sfx_volume / 100);
+        audio_play_sound(Menu_Select, 1, false, global.volume/global.sfx_volume);
     }
     
     // Se clicou no botão Voltar

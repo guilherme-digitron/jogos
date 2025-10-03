@@ -4,10 +4,9 @@ image_angle += 2
 
 x += vel
 
-if global.nivel > 5 {
-	if x > 570 or x < 0 {
+if x > 570 or x < 0 {
 
-		vel = vel * -1
+	vel = vel * -1
 
-	}
 }
+

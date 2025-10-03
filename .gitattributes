@@ -1,1 +1,7 @@
 *.yyz filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+Snake_Vacation_GitHub filter=lfs diff=lfs merge=lfs -text
+Version[[:space:]]1.0 filter=lfs diff=lfs merge=lfs -text
+asteroids filter=lfs diff=lfs merge=lfs -text
+teste[[:space:]]game_backup_corrompido filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text

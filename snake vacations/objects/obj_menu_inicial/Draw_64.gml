@@ -42,28 +42,28 @@ for (var i = 0; i < tamanho_menu; i++) {
             switch (menu_inicial[i]) {
                 case menu_inicial[0]:
                     sfx = audio_play_sound(Start_Game, 1, false);
-                    audio_sound_gain(sfx, global.sfx_volume/100, 0);
+                    audio_sound_gain(sfx, global.volume/global.sfx_volume, 0);
                     room_goto(ROOM_GAME_HISTORI);
                     break;
                 case menu_inicial[1]:
                     global.historia = 1;
                     sfx = audio_play_sound(Start_Game, 1, false);
-                    audio_sound_gain(sfx, global.sfx_volume/100, 0);
+                    audio_sound_gain(sfx,global.volume/global.sfx_volume, 0);
                     room_goto(ROOM_GAME);
                     break;
                 case menu_inicial[2]:
 					sfx = audio_play_sound(Start_Game, 1, false);
-                    audio_sound_gain(sfx, global.sfx_volume/100, 0);
+                    audio_sound_gain(sfx,global.volume/global.sfx_volume, 0);
                     room_goto(ROOM_OPCOES);
                     break;			
 			   case menu_inicial[3]:
 					sfx = audio_play_sound(Start_Game, 1, false);
-                    audio_sound_gain(sfx, global.sfx_volume/100, 0);
+                    audio_sound_gain(sfx,global.volume/global.sfx_volume, 0);
                     room_goto(ROOM_CREDITOS);
 					break;
                 case menu_inicial[4]:
 					sfx = audio_play_sound(Start_Game, 1, false);
-                    audio_sound_gain(sfx, global.sfx_volume/100, 0);
+                    audio_sound_gain(sfx,global.volume/global.sfx_volume, 0);
                     game_end();
                     break;
             }
@@ -83,7 +83,7 @@ if (opcao_atual != opcao_anterior) {
     // Se a nova opção não for "nenhuma" (-1), toca o som
     if (opcao_atual != -1) {
         sfx = audio_play_sound(Menu_Select, 1, false);
-        audio_sound_gain(sfx, global.sfx_volume, 0);
+        audio_sound_gain(sfx,global.volume/global.sfx_volume, 0);
     }
     // Atualiza a variável para o próximo frame
     opcao_anterior = opcao_atual;

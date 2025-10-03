@@ -33,11 +33,7 @@ if (global.cont > 0) {
         draw_text(40, 40, text_score + string(global.cont));
     
         // Desenha o recorde
-        if (global.cont > global.record) {
-            draw_text(40, 80, text_record + string(global.cont));
-        } else {
-            draw_text(40, 80, text_record + string(global.record));
-        }
+        draw_text(40, 80, text_record + string(global.record));
     
         // Desenha a vida
         draw_text(40, 120, text_life + string(global.life));

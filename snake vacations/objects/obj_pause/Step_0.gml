@@ -36,7 +36,7 @@ else {
 // Toca o som APENAS se a opção de hover mudou para uma nova válida
 if (hover_option != _previous_hover && hover_option != -1) {
     sfx = audio_play_sound(Menu_Select, 1, false);
-	audio_sound_gain(sfx, global.sfx_volume, 0);
+	audio_sound_gain(sfx,global.volume/global.sfx_volume, 0);
 }
 
 // Lógica de interpolação da escala para suavidade
@@ -51,13 +51,13 @@ if (mouse_check_button_pressed(mb_left)) {
         case 0: // Continuar
 		
 			sfx = audio_play_sound(Start_Game, 1, false);
-			audio_sound_gain(sfx, global.sfx_volume, 0);
+			audio_sound_gain(sfx, global.volume/global.sfx_volume, 0);
 			global.paused = false
 			instance_destroy()
             break;
         case 1: // Menu Inicial
 			sfx = audio_play_sound(Start_Game, 1, false);
-			audio_sound_gain(sfx, global.sfx_volume, 0);
+			audio_sound_gain(sfx, global.volume/global.sfx_volume, 0);
             room_goto(ROOM_INICIAL);
             break;
     }

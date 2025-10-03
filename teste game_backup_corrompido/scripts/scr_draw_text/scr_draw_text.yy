@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_draw_text",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_draw_text",
+  "parent":{
+    "name":"scr_elements",
+    "path":"folders/Scripts/scr_elements.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

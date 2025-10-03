@@ -179,7 +179,7 @@ if global.cont >= 1000 {
 if global.life < active_sfx {
 
 	var sfx = audio_play_sound(Life_Lose, 1, false);
-	audio_sound_gain(sfx, global.sfx_volume, 0);
+	audio_sound_gain(sfx,global.volume/global.sfx_volume, 0);
 	active_sfx = global.life
 
 }

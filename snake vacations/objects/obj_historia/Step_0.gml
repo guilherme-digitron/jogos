@@ -61,7 +61,7 @@ if (!terminou_fala && !som_tocando) {
     
     // Toca o som em loop e guarda o ID
     som_fala_id = audio_play_sound(som_para_tocar, 1, true);
-    audio_sound_gain(som_fala_id, global.sfx_volume, 0); // Usei o global.sfxvol do seu outro código
+    audio_sound_gain(som_fala_id, global.volume/global.sfx_volume, 0); // Usei o global.sfxvol do seu outro código
     
     // Marca que o som está tocando
     som_tocando = true;

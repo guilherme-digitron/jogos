@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"music_boss",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":26.482744,
+  "name":"music_boss",
+  "parent":{
+    "name":"Sons",
+    "path":"folders/Sons.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"music_boss.wav",
+  "type":0,
+  "volume":1.0,
+}

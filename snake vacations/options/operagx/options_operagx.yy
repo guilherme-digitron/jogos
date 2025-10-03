@@ -5,7 +5,7 @@
   "option_operagx_display_cursor":true,
   "option_operagx_editUrl":"https://dev.gx.games/games/8e54cec9-7dd2-46ba-a8a3-b3c22d4a253f/details",
   "option_operagx_game_name":"snake game roguelike",
-  "option_operagx_guid":"8e54cec9-7dd2-46ba-a8a3-b3c22d4a253f",
+  "option_operagx_guid":"",
   "option_operagx_internalShareUrl":"https://gx.games/games/9ax6jk/snake-game-roguelike/tracks/8904b59f-6dbb-4737-a520-24feec075873/",
   "option_operagx_interpolate_pixels":true,
   "option_operagx_mod_editUrl":"",

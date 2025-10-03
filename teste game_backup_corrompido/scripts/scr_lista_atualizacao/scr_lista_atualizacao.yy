@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_lista_atualizacao",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_lista_atualizacao",
+  "parent":{
+    "name":"scr_corpo",
+    "path":"folders/Scripts/scr_corpo.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

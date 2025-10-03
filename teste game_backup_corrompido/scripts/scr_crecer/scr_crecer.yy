@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_crecer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_crecer",
+  "parent":{
+    "name":"scr_growth_curse",
+    "path":"folders/Scripts/scr_curses/scr_growth_curse.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

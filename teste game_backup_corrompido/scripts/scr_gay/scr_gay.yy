@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_gay",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_gay",
+  "parent":{
+    "name":"scr_gay_curse",
+    "path":"folders/Scripts/scr_curses/scr_gay_curse.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
